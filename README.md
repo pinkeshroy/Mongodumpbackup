@@ -8,7 +8,7 @@ mongodump --uri="mongodb+srv://<username>:<password>@<cluster-url>/<database>" -
 Example Command:
  `mongodump --uri="mongodb+srv://user123:password123@cluster0.mongodb.net/myDatabase" --out=./backup
 `
-**Basic mongorestore command syntax**
+**Basic mongorestore command syntax** \n
 
 mongorestore --uri="mongodb+srv://<username>:<password>@<cluster-url>/<database>" <dump-folder-path>
 
