@@ -1,17 +1,18 @@
 # mongodumpbackup
 
-take a MongoDB dump using the mongodump command. Below is the syntax:
+**Take a MongoDB dump using the mongodump command.**
+Below is the syntax:
 
 mongodump --uri="mongodb+srv://<username>:<password>@<cluster-url>/<database>" --out=<output-directory-path>
 
 Example Command:
  `mongodump --uri="mongodb+srv://user123:password123@cluster0.mongodb.net/myDatabase" --out=./backup
 `
-Basic mongorestore command syntax
+**Basic mongorestore command syntax**
 
 mongorestore --uri="mongodb+srv://<username>:<password>@<cluster-url>/<database>" <dump-folder-path>
 
-Example 
+Example:
 Restore a local dump to a remote MongoDB server:
   `mongorestore --uri="mongodb+srv://user123:password123@cluster0.mongodb.net/myDatabase" ./backup
 `
