@@ -21,6 +21,7 @@ Example:
 
   `mongorestore --uri="mongodb+srv://user123:password123@cluster0.mongodb.net/myDatabase" ./backup
 `
+
 ***Restore a local dump to a local MongoDB server:***
 
  `mongorestore --db=myDatabase ./backup/myDatabase`
